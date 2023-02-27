@@ -1,4 +1,6 @@
 # SQL-Project
+---CREATE PROCEDURE
+
  DECLARE @SumOrd as money
  SET @SumOrd=(SELECT SUM(OrderCount) FROM tmpCustomer)
 
